@@ -2,6 +2,7 @@
 自定义viewpager
 
 Question:
+
 NullPointerException异常的dispatchDraw与ViewPager嵌套的片段，PageTransformer(Nullpointerexception on dispatchDraw with ViewPager in nested fragment with PageTransformer)
 
 
