@@ -8,6 +8,8 @@ NullPointerException异常的dispatchDraw与ViewPager嵌套的片段，PageTrans
 
 Answer:
 
+1：
+
 @Override
 
 public void draw(Canvas canvas) {
@@ -25,12 +27,8 @@ public void draw(Canvas canvas) {
 }
 
 
-2:
-package ca.test;
+2:（解决方式）
 
-import android.content.Context;
-import android.support.v4.view.ViewPager;
-import android.util.AttributeSet;
 
 public class TestViewPager extends ViewPager {
 
